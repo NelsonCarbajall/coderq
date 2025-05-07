@@ -10,20 +10,21 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(90deg, #dcd1dc 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(150deg, #770f77 34%, rgb(6, 243, 243) 100%);
 }
 
 .container{
     height: 260px;
-    background: #ffff;
+    background: #f4f4f4;
     max-width: 410px;
     border-radius: 10px;
     padding: 16px 25px;
     transform: height 0.5s ease;
     margin-bottom: 105px;
+    box-shadow: 6px 8px 7px black;
 }
 .container.active{
-    height: 530px;
+    height: 550px;
 }
 
 header h1{
@@ -36,7 +37,7 @@ header p{
     color: #474747;
     font-size: 16px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 .container.form{
@@ -51,6 +52,10 @@ header p{
     align-items: center;
     justify-content: center;
 }
+
+.form{
+    margin-top: 25px;
+}
 .form input{
      padding: 0 17px ;
      font-size: 18px;
@@ -59,7 +64,7 @@ header p{
 }
 .form button{
     color: #fff;
-    background: #987a71;
+    background: #5c4640;
     margin: 20px;
     font-size: 17px;
     cursor: pointer;
@@ -80,10 +85,10 @@ header p{
 .qr-code .img{
     width: 220px;
     height: auto;
-    margin-top: 35px;
+    margin-top: 5px;
 }
 .container.active .qr-code{
     opacity: 1;
     pointer-events: auto;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease;
 }
